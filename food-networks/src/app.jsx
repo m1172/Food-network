@@ -6,7 +6,9 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Wrapper>
+          <Navbar />
+        </Wrapper>
       </div>
     );
   }
